@@ -1,0 +1,30 @@
+{
+  "name": "graphql-type-datetime-utc",
+  "version": "1.1.0",
+  "description": "DateTime UTC scalar type for GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/AmilsonJunior/graphql-type-datetime-utc.git",
+  "scripts": {
+    "build": "rimraf lib && babel src -d lib",
+    "lint": "eslint src test",
+    "prepublish": "npm run build"
+  },
+  "author": "Amilson Junior",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "peerDependencies": {
+    "graphql": "^0.13.2"
+  }
+}
