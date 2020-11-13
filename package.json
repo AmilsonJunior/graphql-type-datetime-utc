@@ -2,7 +2,7 @@
   "name": "graphql-type-datetime-utc",
   "version": "1.2.0",
   "description": "DateTime UTC scalar type for GraphQL",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/AmilsonJunior/graphql-type-datetime-utc.git",
   "scripts": {
     "build": "rimraf lib && babel src -d lib",
