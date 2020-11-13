@@ -3,11 +3,11 @@ import { Kind } from 'graphql/language'
 import moment from 'moment'
 
 export default new GraphQLScalarType({
-  name: 'DateTimeUTC',
-  description: 'The `DateTimeUTC` scalar represents a date and time following the ISO 8601 standard',
+  name: 'DateTime',
+  description: 'The `DateTime` scalar represents a date and time following the ISO 8601 standard',
   serialize(value) {
     // value sent to the client
-    return moment(value).utc().format()
+    return moment(value).utc().toISOString()
   },
   parseValue(value) {
     // value from the client
