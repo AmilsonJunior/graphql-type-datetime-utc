@@ -1,6 +1,6 @@
 {
   "name": "graphql-type-datetime-utc",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "DateTime UTC scalar type for GraphQL",
   "main": "lib/index.js",
   "repository": "https://github.com/AmilsonJunior/graphql-type-datetime-utc.git",
